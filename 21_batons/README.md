@@ -14,7 +14,7 @@ Règles :
     <img
         src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_start.png"
         alt="DEMO"
-        style="width:70%">
+        style="width:50%">
 </div>
 
 <br>
@@ -23,7 +23,7 @@ Règles :
     <img
         src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_win.png"
         alt="DEMO"
-        style="width:70%">
+        style="width:50%">
 </div>
 
 <br>
@@ -32,7 +32,7 @@ Règles :
     <img
         src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_lose.png"
         alt="DEMO"
-        style="width:70%">
+        style="width:50%">
 </div>
 
 ---
@@ -59,7 +59,6 @@ python3 21batons.py
 ## Changelog
 Version 1.0 - May 11' 2024
 
-- Initial release
-- 2 options game : Against AI or Player
-- Advanced Lisa's difficulty
-- Replay 
+- Version initiale
+- 2 options de jeu : contre l'IA ou contre un autre joueur
+- Option rejouer
