@@ -30,7 +30,7 @@ Règles :
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_lost.png"
+        src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_lose.png"
         alt="DEMO"
         style="width:70%">
 </div>
