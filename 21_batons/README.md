@@ -12,7 +12,7 @@ Règles :
 ## Screenshot
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/21_batons-CLI/blob/main/screenshot.png"
+        src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_start.png"
         alt="DEMO"
         style="width:70%">
 </div>
@@ -21,7 +21,7 @@ Règles :
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/21_batons-CLI/blob/main/screenshot.png"
+        src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_win.png"
         alt="DEMO"
         style="width:70%">
 </div>
@@ -30,7 +30,7 @@ Règles :
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/21_batons-CLI/blob/main/screenshot.png"
+        src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_lost.png"
         alt="DEMO"
         style="width:70%">
 </div>
@@ -42,11 +42,11 @@ Règles :
 - Ouvrez votre `Terminal` (Linux) ou l'`invite de commandes` (Windows)
 - Téléchargez le jeu:
 ```bash
-git clone
+git clone https://github.com/AyckinnLisa/jeux_cli.git
 ``` 
 - Rendez-vous dans le dossier du jeu:
 ```bash
-cd 21batons
+cd jeux_cli/21_batons
 ```
 - Lancez le jeu:
 ```bash
@@ -62,4 +62,4 @@ Version 1.0 - May 11' 2024
 - Initial release
 - 2 options game : Against AI or Player
 - Advanced Lisa's difficulty
-- Replay option
+- Replay 
