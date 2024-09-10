@@ -9,6 +9,25 @@ Règles :
 
 ---
 
+## Usage
+- Si vous ne l'avez pas déjà, téléchargez [Python](https://www.python.org/downloads/).
+- Ouvrez votre `Terminal` (Linux) ou l'`invite de commandes` (Windows)
+- Téléchargez le jeu:
+```bash
+git clone https://github.com/AyckinnLisa/jeux_cli.git
+``` 
+- Rendez-vous dans le dossier du jeu:
+```bash
+cd jeux_cli/21_batons
+```
+- Lancez le jeu:
+```bash
+python3 21batons.py
+```
+- Pour quitter la partie: `CTRL+C` ou tapez: `!q`
+
+---
+
 ## Screenshot
 <div align="center">
     <img
@@ -30,29 +49,19 @@ Règles :
 
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_lose.png"
+        src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_ingame.png"
         alt="DEMO"
         style="width:50%">
 </div>
 
----
+<br>
 
-## Usage
-- Si vous ne l'avez pas déjà, téléchargez [Python](https://www.python.org/downloads/).
-- Ouvrez votre `Terminal` (Linux) ou l'`invite de commandes` (Windows)
-- Téléchargez le jeu:
-```bash
-git clone https://github.com/AyckinnLisa/jeux_cli.git
-``` 
-- Rendez-vous dans le dossier du jeu:
-```bash
-cd jeux_cli/21_batons
-```
-- Lancez le jeu:
-```bash
-python3 21batons.py
-```
-- Pour quitter la partie: `CTRL+C` ou tapez: `!q`
+<div align="center">
+    <img
+        src="https://github.com/AyckinnLisa/jeux_cli/blob/main/21_batons/img/21_lose.png"
+        alt="DEMO"
+        style="width:50%">
+</div>
 
 ---
 
