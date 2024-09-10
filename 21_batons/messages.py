@@ -17,29 +17,29 @@ def rules():
  visiter ma page.\n
 ''')
     
-    print(fc.magenta_font(" +") + fc.magenta_font("-" * 60) + fc.magenta_font("+"))
+    print(fc.magenta_font(" +") + fc.magenta_font("-" * 59) + fc.magenta_font("+"))
     print(fc.magenta_font(" |"), end="")
-    print(fc.yellow_font("  REGLES DU JEU :") + (' ' * 43) + fc.magenta_font("|"))
-    print(fc.magenta_font(" |") + " " * 59 + fc.magenta_font(" |"))
+    print(fc.yellow_font(" REGLES DU JEU :") + (' ' * 43) + fc.magenta_font("|"))
+    print(fc.magenta_font(" |") + " " * 58 + fc.magenta_font(" |"))
     print(fc.magenta_font(" |"), end="")
-    print((' ' * 5) + fc.blue_font("01. Le pateau de jeu contient 21 bâtons") + (' ' * 16) + fc.magenta_font("|"))
+    print((' ' * 5) + fc.blue_font("01. Le pateau de jeu contient 21 bâtons") + (' ' * 15) + fc.magenta_font("|"))
     print(fc.magenta_font(" |"), end="")
-    print((' ' * 5) + fc.blue_font("02. Chaque joueur peut enlever 1, 2 ou 3 bâtons") + (' ' * 8) + fc.magenta_font("|"))
+    print((' ' * 5) + fc.blue_font("02. Chaque joueur peut enlever 1, 2 ou 3 bâtons") + (' ' * 7) + fc.magenta_font("|"))
     print(fc.magenta_font(" |"), end="")
-    print((' ' * 5) + fc.blue_font("03. Le joueur prenant le dernier bâton perd la partie") + (' ' * 2) + fc.magenta_font("|"))
+    print((' ' * 5) + fc.blue_font("03. Le joueur prenant le dernier bâton perd la partie") + (' ' * 1) + fc.magenta_font("|"))
     print(fc.magenta_font(" |"), end="")
-    print((' ' * 5) + fc.blue_font("04. Pour quitter la partie, tapez [!q]") + (' ' * 17) + fc.magenta_font("|"))
-    print(fc.magenta_font(" +") + fc.magenta_font("-" * 60) + fc.magenta_font("+"))
+    print((' ' * 5) + fc.blue_font("04. Pour quitter la partie, tapez [!q]") + (' ' * 16) + fc.magenta_font("|"))
+    print(fc.magenta_font(" +") + fc.magenta_font("-" * 59) + fc.magenta_font("+"))
 
 
 
 def display_sticks(title, stlist, remaining_sticks):
     print("")
-    print((' ' * 14), fc.magenta_font('-' * 45))
-    print((' ' * 24), fc.yellow_font(f"{title}  - "), fc.blue_font(f"RESTANTS : {remaining_sticks}"))
-    print((' ' * 14), fc.magenta_font('=' * 45))
-    print((' ' * 16), fc.green_font(' '.join(stlist)))
-    print((' ' * 14), fc.magenta_font('=' * 45))
+    print((' ' * 8), fc.magenta_font('-' * 45))
+    print((' ' * 18), fc.yellow_font(f"{title}  - "), fc.blue_font(f"RESTANTS : {remaining_sticks}"))
+    print((' ' * 8), fc.magenta_font('=' * 45))
+    print((' ' * 10), fc.green_font(' '.join(stlist)))
+    print((' ' * 8), fc.magenta_font('=' * 45))
 
 
 
